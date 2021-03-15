@@ -1,0 +1,74 @@
+
+table {
+  width: 100%;
+}
+form{
+  padding-bottom: 30px;
+}
+
+input, label {
+  display:block;
+
+}
+.container{
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+}
+.text-center{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.filter-section{
+  color: black;
+  background-color: rgb(247, 244, 244);
+  padding: 8px;
+
+}
+.mat-toolbar.mat-primary {
+  background: #312d38;
+  color: white;
+}
+.mat-toolbar.mat-default {
+  background: #456a9a;
+  color: white;
+}
+.font-md{
+  margin-top: 10px;
+  font-size: 16px;
+}
+.mat-checkbox{
+  margin-left: 10px;
+}
+.mat-form-field-wrapper{
+  padding-top: 10px;
+}
+.mat-raised-button{
+  margin-left: 50px;
+  font-size: 16px;
+  padding-top: 5px;
+  font-weight: 10px;
+  width: 150px;
+}
+.mat-raised-button:hover{
+ background-color:  #312d38;
+}
+/* Absolute Center Spinner */
+.loading-indicator {
+  display: flex; overflow:show; z-index: 1; justify-content: center; align-items: center; background: rgba(185, 177, 177, 0.3);;
+}
+.mat-spinner {
+  position: relative;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+/* Transparent Overlay */
+.loading-indicator:before {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
